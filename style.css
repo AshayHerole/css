@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Poppins:wght@300&display=swap");
+*{
+    font-family: 'Inter', sans-serif; 
+   
+} 
+
+.box{
+    height: 550px;
+    width: 900px;
+    color: rgba(224, 219, 219, 0.993);
+    background-color: rgb(26, 25, 25);
+    text-align: center;
+    border: 10px solid rgba(209, 190, 209, 0.753);
+    border-radius: 10px; 
+    margin: auto;
+} 
+
+.anchor{
+    color: beige;
+} 
+
+.box1{
+    height: 550px;
+    width: 900px;
+    color: rgba(224, 219, 219, 0.993);
+    background-color: rgb(26, 25, 25);
+    margin: auto;
+    border: 10px solid rgba(209, 190, 209, 0.753);
+    border-radius: 10px;  
+    padding: 10px;
+
+}  
+
+.navbar{
+    height: 50px;
+    width: 1315px;
+   
+    background-color: rgb(26, 25, 25);
+    
+    border: 10px solid rgba(209, 190, 209, 0.753);
+     
+    text-align: end;
+    text-decoration: none;
+
+}
+
+   

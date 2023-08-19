@@ -1,33 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="first.css" />
-    <style>
-      h1 {
-        background-color: bisque;
-      }
-    </style>
-  </head>
-  <body>
-    <div>
-      <h1>Ashay Herole</h1>
-      <h1>Ashay</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 
-      <h2>Ashay</h2>
-    </div>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/8ehGFSaqpDs"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-  </body>
+</head>
+<body>
+ <header>
+  <div class="navbar">
+    
+    <a href=""  style="color: antiquewhite; text-decoration: none;">Books</a> 
+    <a  href="" style="color: antiquewhite; text-decoration: none;">Register</a>
+    <a  href="" style="color: antiquewhite; text-decoration: none;">Contact Us</a>
+    <a  href="" style="color: antiquewhite; text-decoration: none;">Logout</a>
+    <a></a>
+
+  </div>
+ </header>
+ <br>
+ <br>
+
+ <div id="Books" class="box"  >
+ 
+ <table border="1" height="400px" width="900px"> 
+  <h1>Books</h1> 
+  <thead>
+    <th>Book ID</th> 
+    <th>Title</th>
+    <th>Author</th>
+    <th>Genre</th>
+    <th>Availability</th> 
+</thead> 
+
+  <tbody>
+
+<tr>
+  <td>1</td> 
+  <td>
+    <table border="1">
+      <h3> <a href="https://www.amazon.in/Rich-Dad-Poor-Robert-Kiyosaki/dp/8186775218/ref=sr_1_1_sspa?adgrpid=1320515070189223&hvadid=82532450995758&hvbmt=bb&hvdev=c&hvlocphy=157926&hvnetw=o&hvqmt=b&hvtargid=kwd-82533064471592%3Aloc-90&hydadcr=12587_1949513&keywords=rich+dad+poor+dad+audio+book&qid=1692436549&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"  class="anchor" >Rich dad Poor dad</a> </h3>
+<tr><td>Publication Date: 1997</td></tr>  
+<tr><td>Page count: 200</td></tr>  
+<tr><td>ISBN-109788186775219</td></tr>  
+  </table>
+  </td> 
+  <td> Robert-Kiyosaki</td> 
+  <td> Finance</td>  
+  <td>  Available</td> 
+</tr> 
+
+<tr>
+  <td>2</td> 
+  <td>
+    <table border="1">
+      <h3> <a href="https://www.amazon.in/You-Can-George-Matthew-Adams/dp/9389931843/ref=d_pd_sim_sccl_2_3/258-8218948-0816468?pd_rd_w=NZhtE&content-id=amzn1.sym.c6214431-beca-49c7-b89c-793ca1dc74d8&pf_rd_p=c6214431-beca-49c7-b89c-793ca1dc74d8&pf_rd_r=77BG1HXJN0TN4C59V93S&pd_rd_wg=j0uw9&pd_rd_r=724881c8-a89c-4681-bd77-614444a82557&pd_rd_i=9389931843&psc=1"   class="anchor">You Can</a> </h3>
+<tr><td> Publication Date: 2003</td></tr>  
+<tr><td> Page count: 250</td></tr>  
+<tr><td> ISBN-109788186775220</td></tr>  
+  </table>
+  </td> 
+  <td> George-Matthew-Adams</td> 
+  <td> Motivational</td>  
+  <td> Not Available</td> 
+</tr> 
+
+<tr>
+  <td>3</td> 
+  <td>
+    <table border="1">
+      <h3> <a href="https://www.amazon.com/Secret-Rhonda-Byrne/dp/1582701709"  class="anchor">The Secret</a> </h3>
+<tr><td> Publication Date: 2006</td></tr>  
+<tr><td> Page count: 198</td></tr>  
+<tr><td> ISBN-101582701709</td></tr>  
+  </table>
+  </td> 
+  <td> Rhonda Byrne</td> 
+  <td> Self Help</td>  
+  <td> Available</td> 
+</tr> 
+
+</tbody>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="box1"> 
+
+<h1> Register</h1> 
+<form action="#" method="post">
+  <label> First Name: </label> <br> 
+  <input type="text" name="First Name" size="115" required>
+  <br><br>
+  <label> Last Name: </label> <br>
+  <input type="text" name="Last Name" size="115" required> 
+  <br><br>
+  <label> Date Of Birth: </label> <br>
+  <input type="date" name="Date Of Birth" size="115" required> 
+  <br><br>
+
+  <label> Age: </label> <br>
+  <input type="number" name="Age" size="200" min="5" required="value must be greater that or equal to 5"> 
+  <br><br>
+
+  <label> Email: </label> <br>
+  <input type="email" name="Email" size="115" required> 
+  <br><br>
+
+  <label> Password: </label> <br>
+  <input type="password" name="Password" size="115" required> 
+  <br><br>
+
+  <label> Confirm Password: </label> <br>
+  <input type="password" name=" Confirm Password" size="115" required> 
+  <br><br>
+
+  <div>
+   <button   style="width: 872px; background-color: rgba(155, 134, 247, 0.89);"  type="submit">Register</button> 
+  </div>
+</form>
+
+
+</div>
+
+</body>
 </html>
-<section>Ashay</section>
